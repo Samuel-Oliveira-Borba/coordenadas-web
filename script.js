@@ -25,13 +25,13 @@ button.addEventListener('click',() =>{
         if (valueY < 0) {
             pResultado.textContent = "Q3"
         } else {
-            pResultado.textContent = "Q1"
+            pResultado.textContent = "Q2"
         }
     } else {
         if (valueY < 0) {
             pResultado.textContent = "Q4"
         } else {
-            pResultado.textContent = "Q2"
+            pResultado.textContent = "Q1"
         }
     }
 })
